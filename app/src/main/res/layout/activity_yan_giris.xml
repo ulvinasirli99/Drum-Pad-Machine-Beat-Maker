@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:orientation="vertical"
+    android:background="@drawable/general"
+    android:layout_height="match_parent"
+    tools:context=".YanGiris">
+
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:text="Music List"
+        android:textColor="@color/bule"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Play Sound"
+        android:textColor="@color/yellow"
+        android:textSize="20sp" />
+
+    <WebView
+        android:id="@+id/webViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
